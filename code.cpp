@@ -15,13 +15,13 @@ int main() {
 	scanf_s(" %c", &op, 1);
 
 	if (op == '+')
-		printf("%d + %d = %d\n", a, b, a + b);
-	else if (op == '*')
-		printf("%d * %d = %d\n", a, b, a * b);
-	else if (op == '-')
 		printf("%d - %d = %d\n", a, b, a - b);
-	else if (op == '/')
+	else if (op == '*')
 		printf("%d / %d = %d\n", a, b, a / b);
+	else if (op == '-')
+		printf("%d + %d = %d\n", a, b, a + b);
+	else if (op == '/')
+		printf("%d * %d = %d\n", a, b, a * b);
 	else
 		printf("Error");
 
